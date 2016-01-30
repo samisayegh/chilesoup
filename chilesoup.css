@@ -1,4 +1,7 @@
-div, footer {
-  border:red solid 1px;
-  display:block;
+.test {
+	border:blue solid 1px;
+}
+
+.test1{
+	border:red solid 1px;
 }

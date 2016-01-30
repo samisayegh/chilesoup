@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="description" content="finding jam sessions">
     <meta name="keywords" content="">
-    <link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap-datepicker.css">
+    
+    <link rel="stylesheet" type="text/css" href="bower_components\bootstrap\dist\css\bootstrap.css">
+    <link rel="stylesheet" href="bower_components\eonasdan-bootstrap-datetimepicker\build\cssbootstrap-datetimepicker.css" />
     <link rel="stylesheet" type="text/css" href="chilesoup.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script language="javascript" type="text/javascript" src="bootstrap\js\bootstrap.js"></script>
-    <script language="javascript" type="text/javascript" src="bootstrap\js\bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="bower_components\moment\min\moment.min.js"></script>
+    <script language="javascript" type="text/javascript" src="bower_components\bootstrap\dist\js\bootstrap.js"></script>
+    <script type="text/javascript" src="bower_components\eonasdan-bootstrap-datetimepicker\build\js\bootstrap-datetimepicker.min.js"></script>
     <script language="javascript" type="text/javascript" src="chilesoup.js"></script>
   </head>
+
   <body>
     <title>chilesoup</title>
     <div class="container">
       
       <!-- Navigation bar -->
+
       <nav class="navbar col-xs-12">
         <div class="navbar-brand col-xs-3">chilesoup</div>
         <div class="col-xs-9" role="navigation">
@@ -35,24 +40,29 @@
       </nav>
       
       <!-- Page Main Body -->
+
       <section class="col-xs-12">
+        
         <!-- Options Menu -->
+        
         <div class="col-xs-3 test1">
-          <button class="btn" data-toggle="collapse" href="#createSession">Create a Session</button>
-          <div class="collapse" id="createSession">
+          <button class="btn" href="#createSession">Create a Session</button><!-- data-toggle="collapse" -->
+          <div class="" id="createSession"><!-- collapse -->
             <form>
+              
               <div class="form-group">
                 <label>Address</label>
                 <input class="form-control" type="address" placeholder="where are you playing?">
               </div>
-              <div class="form-group">
-                <label>When</label>
-                <input class="form-control datepicker" placeholder="what day?">
-              </div>
               
               <div class="form-group">
-                <label>Time</label>
-                <input class="form-control" type="time">
+                <label>When</label>
+                <div class="input-group date" id="datetimepicker">
+                    <input type='text' class="form-control" placeholder="what day?">
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
               </div>
               
               <div class="form-group">
@@ -66,6 +76,7 @@
         </div>
         
         <!-- List of Events -->
+
         <div class="col-xs-6 test">
           <label>List</label>
           <table class="table table-condensed table-hover">
@@ -88,18 +99,21 @@
         </div>
         
         <!-- Extra Info Tab -->
+
         <div class="col-xs-3">
           <label>Extra Info</label>
         </div>
       </section>
       
       <!-- Page Description -->
+
       <section class="col-xs-12">
         <h4>About</h4>
         <p>The motivation to start chilesoup came from a difficulty of finding fellow musicians who were interested in playing in a casual jam session once a week. People on CraigsList tended to be very serious about music or even professionals looking to make money from playing gigs asap. On the other end of the spectrum, friends and contacts in university who played instruments would initially be excited by the idea, but would drop out once midterms and finals came around. With chilesoup, we were looking to bring together people who want to play music, but who do not necessarily want to commit to playing shows, recording albums or touring.</p>
       </section>
       
       <!-- Footer -->
+
       <footer class="col-xs-12">
         <div class="col-xs-12">Made in Montreal</div>
       </footer>
