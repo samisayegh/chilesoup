@@ -1,3 +1,3 @@
 # chilesoup
 
-The goal of chilisoup.com is to help musicians who want to improvise find one another.
+The goal of chilisoup.com is to help non-commited musicians who want jam find one another.
