@@ -1,0 +1,70 @@
+{
+  "name": "chilesoup",
+  "description": "The goal of chilisoup.com is to help non-commited musicians who want jam find one another.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt-nodejs":"latest",
+    "body-parser": "1.15.1",
+    "express": "4.13.4",
+    "express-session": "1.13.0",
+    "http-status": "0.2.3",
+    "mongoose": "4.4.19",
+    "passport": "0.3.2",
+    "passport-facebook": "2.1.1",
+    "passport-twitter": "latest",
+    "passport-google-oauth2": "latest",
+    "passport-local": "latest",
+    "superagent": "2.0.0",
+    "underscore": "1.8.3",
+    "wagner-core": "0.2.0",
+
+    "@angular/common":  "2.0.0-rc.2",
+    "@angular/compiler":  "2.0.0-rc.2",
+    "@angular/core":  "2.0.0-rc.2",
+    "@angular/forms": "0.1.1",
+    "@angular/http":  "2.0.0-rc.2",
+    "@angular/platform-browser":  "2.0.0-rc.2",
+    "@angular/platform-browser-dynamic":  "2.0.0-rc.2",
+    "@angular/router":  "2.0.0-rc.2",
+    "@angular/router-deprecated":  "2.0.0-rc.2",
+    "@angular/upgrade":  "2.0.0-rc.2",
+    "systemjs": "0.19.27",
+    "core-js": "^2.4.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12",
+    "angular2-in-memory-web-api": "0.0.12",
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-mocha": "2.2.0",
+    "mocha": "2.5.3",
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^1.8.10",
+    "typings":"^1.0.4"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "watch": "gulp watch",
+    
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samisayegh/chilesoup.git"
+  },
+  "author": "Sami Sayegh",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/samisayegh/chilesoup/issues"
+  },
+  "homepage": "https://github.com/samisayegh/chilesoup#readme"
+}
