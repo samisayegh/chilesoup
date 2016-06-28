@@ -1,17 +1,17 @@
 {
 	"facebook":{
-		"clientID":"598179497025719",
-		"clientSecret":"47dbfed78d0611af2cff0ea05a2cda83",
-		"testUserID":"105675459859864",
-		"testUserEmail":"will_tmfuxxj_sadansen@tfbnw.net",
-		"testUserPassword":"woodyallenandywarhol"
+		"clientID":"",
+		"clientSecret":"",
+		"testUserID":"",
+		"testUserEmail":"",
+		"testUserPassword":""
 	},
 	"twitter":{
-		"consumerKey":"yGspaLYHvYXNpTU1fjOTc0td3",
-		"consumerSecret":"Y5FgSUdMe196icmHYTWJkCPCXO19fkdm920gjo33QC13CZoLpW"
+		"consumerKey":"",
+		"consumerSecret":""
 	},
 	"google":{
-		"clientID":"482009031102-o09fd6lcpsft4a3bc1ghds4koteob23f.apps.googleusercontent.com",
-		"clientSecret":"3BLTAKOmHSJJdI2M3o6fj67e"
+		"clientID":"",
+		"clientSecret":""
 	}
 }
