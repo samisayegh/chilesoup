@@ -21,7 +21,7 @@ describe('Chilesoup Site Tests', function() {
     // Bootstrap server
     require('./server/models')(wagner);
     require('./server/dependencies')(wagner);
-    wagner.invoke(require('./server/auth.js'), {app: app});
+    wagner.invoke(require('./server/auth'), {app: app});
     require('./server/routes')(app, wagner);
     
     var deps = wagner.invoke(function(User,Session,Config){
