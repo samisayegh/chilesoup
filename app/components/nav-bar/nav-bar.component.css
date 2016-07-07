@@ -1,0 +1,27 @@
+nav {
+	height: 57px;
+}
+
+table {
+	width: 100%;
+	border-bottom: red solid 4px;
+}
+
+h2 {
+	color: red;
+	text-align: center;
+	margin: 10px auto;
+}
+
+td:nth-last-child(-n+2) {
+	text-align: center;
+}
+
+a {
+	color: red;
+}
+
+/*For development only. Not for permanent styling.*/
+.focus {
+	border: black solid 2px;
+}

@@ -16,8 +16,8 @@ var NavBarComponent = (function () {
     NavBarComponent = __decorate([
         core_1.Component({
             selector: 'nav-bar',
-            template: "\n\t<nav>\n\t\t<div class=\"navbar-brand col-xs-3\">chilesoup</div>\n\t\t<location-bar class=\"col-xs-3\"></location-bar>\n\t\t<a href=\"/faq\" class=\"col-xs-3\">FAQ</a>\n\t\t<a href=\"/login\" class=\"col-xs-3\">Login</a>\n\t</nav>\n\t",
-            styles: ["\n\t\tnav {\n\t\t\tborder: red solid 2px;\n\t\t\theight: 50px;\n\t\t}\n\t"],
+            templateUrl: 'app/components/nav-bar/nav-bar.component.html',
+            styleUrls: ['app/components/nav-bar/nav-bar.component.css'],
             directives: [location_bar_component_1.LocationBarComponent]
         }), 
         __metadata('design:paramtypes', [])

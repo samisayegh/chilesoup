@@ -9,18 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var LocationBarComponent = (function () {
-    function LocationBarComponent() {
+var SessionDetailComponent = (function () {
+    function SessionDetailComponent() {
     }
-    LocationBarComponent = __decorate([
+    SessionDetailComponent = __decorate([
         core_1.Component({
-            selector: 'location-bar',
-            template: "\n\t<div class=\"input-group\">\n\t\t<div class=\"input-group-addon\">Loc</div>\n\t\t<input class=\"form-control\" type=\"text\" placeholder=\"e.g. Montreal\">\n\t</div>\n\t",
-            styleUrls: ['app/components/location-bar/location-bar.component.css']
+            selector: 'session-detail',
+            template: "\n\t\n\t",
+            directives: []
         }), 
         __metadata('design:paramtypes', [])
-    ], LocationBarComponent);
-    return LocationBarComponent;
+    ], SessionDetailComponent);
+    return SessionDetailComponent;
 }());
-exports.LocationBarComponent = LocationBarComponent;
-//# sourceMappingURL=location-bar.component.js.map
+exports.SessionDetailComponent = SessionDetailComponent;
+//# sourceMappingURL=session-detail.component.js.map
