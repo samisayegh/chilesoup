@@ -9,9 +9,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var router_deprecated_1 = require('@angular/router-deprecated');
+var router_1 = require('@angular/router');
 var nav_bar_component_1 = require('./components/nav-bar/nav-bar.component');
-var container_component_1 = require('./components/container/container.component');
 var AppComponent = (function () {
     function AppComponent() {
         this.title = 'Chilesoup';
@@ -19,10 +18,10 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n\t<nav-bar></nav-bar>\n\t<container></container>\n\t",
-            directives: [router_deprecated_1.ROUTER_DIRECTIVES, nav_bar_component_1.NavBarComponent, container_component_1.ContainerComponent],
-            providers: [router_deprecated_1.ROUTER_PROVIDERS],
-            styles: ["\n\t\tcontainer {\n\t\t\tdisplay: inline-block;\n\t\t\twidth: 100%;\n\t\t\theight: 500px;\n\t\t\tborder: orange solid 2px;\n\t\t\tmargin-top: 20px;\n\t\t}\n\t"]
+            template: "\n\t<nav-bar></nav-bar>\n\t<a [routerLink]=\"['']\"></a>\n\t<a [routerLink]=\"['/faq']\"></a>\n\t<router-outlet></router-outlet>\n\t",
+            directives: [router_1.ROUTER_DIRECTIVES, nav_bar_component_1.NavBarComponent],
+            providers: [],
+            styles: []
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-	selector:'location-bar',
+	selector:'faq',
 	template: `
 		<h2>What is Chilesoup</h2>
 		<p>The motivation to start chilesoup came from a difficulty of finding 
