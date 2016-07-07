@@ -1,3 +1,12 @@
 .input-group {
 	width: 300px;
 }
+
+.input-group-addon {
+	background-color: #C9C9C9;
+	color: white;
+}
+
+.form-control {
+	border-color: #C9C9C9;
+}
