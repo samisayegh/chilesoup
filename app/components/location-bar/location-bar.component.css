@@ -3,10 +3,11 @@
 }
 
 .input-group-addon {
-	background-color: #C9C9C9;
+	background-color: #9E9E9E;
+	border-color: #9E9E9E;
 	color: white;
 }
 
 .form-control {
-	border-color: #C9C9C9;
+	border-color: #9E9E9E;
 }

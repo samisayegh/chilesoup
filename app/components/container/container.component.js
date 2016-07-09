@@ -17,9 +17,9 @@ var ContainerComponent = (function () {
     ContainerComponent = __decorate([
         core_1.Component({
             selector: 'container',
-            template: "\n\t<div class=\"col-xs-3\">\n\t\t<button class=\"btn\" href=\"#createSession\">Create a Session</button>\n\t</div>\n\t<div class=\"col-xs-5\">\n\t\t<session-list></session-list>\n\t</div>\n\t<div class=\"col-xs-4\">\n\t\t<session-detail></session-detail>\n\t</div>\n\t",
             directives: [session_list_component_1.SessionListComponent, session_detail_component_1.SessionDetailComponent],
-            styles: ["\n\t\tsession-list {\n\t\t\tdisplay: block;\n\t\t\tborder: blue solid 2px;\n\t\t}\n\n\t\tsession-detail {\n\t\t\tdisplay: block;\n\t\t\tborder: green solid 2px;\n\t\t}\n\t"]
+            templateUrl: 'app/components/container/container.component.html',
+            styleUrls: ['app/components/container/container.component.css']
         }), 
         __metadata('design:paramtypes', [])
     ], ContainerComponent);
